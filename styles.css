@@ -6,20 +6,48 @@ body {
 
 main {
   background-color: white;
-  width: 60%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   padding: 2%;
-}
-
-img {
-  width: 20%;
 }
 
 .link:hover {
   cursor: pointer;
   text-decoration: underline;
   color: #0000ff;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 1.6em;
+  border: 1px solid #87cefa;
+  margin: 9px 0;
+}
+
+img {
+  width: 20%;
+  margin: 0 23px 0 0;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  background-color: #707070;
+  color: white;
+  font-size: 1em;
+  padding: 6px;
+  border: 1px solid white;
+  border-radius: 9px;
+  margin: 1em 0 0;
+}
+
+#btn:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 
 footer {
