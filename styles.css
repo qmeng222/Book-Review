@@ -1,0 +1,12 @@
+/* These CSS rules apply to all .html files*/
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0000ff;
+}
+
+footer {
+  background-color: #deb887;
+  padding: 1%;
+}
